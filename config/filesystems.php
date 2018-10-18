@@ -69,7 +69,7 @@ return [
             'password' => env('FTP_PASSWORD'),
 
             // Optional FTP Settings...
-            'port'     => env('FTP_HOST','21'),
+            'port'     => env('FTP_HOST','28'),
             // 'root'     => '',
             // 'passive'  => true,
             // 'ssl'      => true,
