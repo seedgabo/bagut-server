@@ -35,19 +35,19 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
             $schedule->command('sendMailVencidos')
-                ->everyMinute();
+                ->everyTenMinutes();
                 // ->appendOutputTo("ticketsvencidos.txt");
 
             $schedule->command('sendMailVence3')
-                ->everyMinute();
+                ->everyTenMinutes();
                 // ->appendOutputTo("ticketsvence3.txt");
 
             $schedule->command('sendMailVence24')
-                ->everyMinute();
+                ->everyTenMinutes();
                 // ->appendOutputTo("ticketsvence24.txt");
             
             $schedule->command('sendMailReminderManual')
-                ->everyMinute();
+               ->everyTenMinutes();
 
             $schedule->command('sendRecordatorio:EvaluacionesProveedores')
                 ->daily();
@@ -62,7 +62,7 @@ class Kernel extends ConsoleKernel
                 // ->appendOutputTo("EvaluacionesConductores.txt");
 
             $schedule->command('send:Alertas')
-                ->everyMinute();
+                ->everyFiveMinutes();
                 // ->appendOutputTo("alertas.txt");
 
             $schedule->command('archive:tickets')->daily();
