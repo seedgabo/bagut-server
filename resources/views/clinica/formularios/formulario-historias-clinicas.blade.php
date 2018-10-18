@@ -1,0 +1,2 @@
+
+<legend>Historia Clínica</legend>

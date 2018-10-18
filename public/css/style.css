@@ -1,0 +1,74 @@
+
+
+.widget-user-2{
+	-webkit-transition: .7s !important;
+			transition: .7s !important;
+}
+.widget-user-2:hover{
+	transition: .5s !important;
+	box-shadow: 5px 5px 10px #254c6c !important;
+}
+
+
+//Estilos propios
+
+.hover
+{
+	-webkit-transition: .7s !important;
+			transition: .7s !important;
+}
+.hover:hover
+{
+	transition: .5s !important;
+	box-shadow: 5px 5px 10px #254c6c !important;
+}
+
+.shadow{
+	box-shadow: 5px 5px 10px #254c6c !important;
+}
+
+
+
+.table
+{
+	background-color: white;
+
+}
+
+.input-xs
+{
+	height: 20px;
+	font-size: 12px;
+}
+
+
+.login-card{
+	width: 360px;
+	padding: 5px;
+	background-color: white;
+	box-shadow: 5px 5px 10px grey;
+}
+
+.container-login{
+	background-image: url(../img/logo.jpg);
+	// background-attachment: fixed;	
+	background-position: center;
+	// background-size: cover;
+}
+
+.flex-container
+{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap ;
+    flex-wrap: wrap ;
+}
+
+.item-flex{
+	min-width:  25%;
+	width: 25%;
+	margin: 10px;
+}
+
