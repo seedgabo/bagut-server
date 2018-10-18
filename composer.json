@@ -23,7 +23,8 @@
         "barryvdh/laravel-dompdf": "^0.8.0",
         "filp/whoops": "^2.1",
         "jenssegers/date": "^3.2",
-        "consoletvs/charts": "4.*"
+        "consoletvs/charts": "4.*",
+        "laravel/tinker": "^1.0"
     },
     "require-dev": {
         "davibennun/laravel-push-notification": "dev-laravel5",
